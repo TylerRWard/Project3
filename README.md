@@ -5,13 +5,13 @@
 - **Name**: Tyler Ward  
 - **Date**: April 9, 2025  
 - **Platform**: macOS 
+
 ---
 
 ## Summary
-I started with reading in the test files and being able to print them to 
-the screen. I then started with the 1d version and realised I needed a brute force. Then ended with the 2d version. I creaded boolean comparitors to help 
-in the process. 
+I began by reading the data from a file and verifying it loaded correctly. For 1D, I sorted clients by the chosen survey and compared adjacent values. For 2D, I first used a brute-force method, then implemented a recursive divide-and-conquer algorithm that checks both sides of a midpoint and a narrow strip for the closest pair. The program supports three modes—1D by survey1, 1D by survey2, and 2D—using command-line arguments. 
 
+---
 
 # Compilation
 ```bash
