@@ -112,14 +112,14 @@ int main(int argc, char* argv[]){
     file.close();
 
 
-        // debugging
+        /* debugging
     for (size_t i = 0; i < clients.size(); i++) {
         cout << "Client " << i + 1 << ": " 
             << clients[i].name << " " 
             << clients[i].survey1 << " " 
             << clients[i].survey2 << endl;
     }
-
+*/
 
     pair<pair<string, string>, double> result;
     if (mode =="1") result = findClosestPair1D(clients, 0);
