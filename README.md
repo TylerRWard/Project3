@@ -5,6 +5,8 @@
 - **Name**: Tyler Ward  
 - **Date**: April 9, 2025  
 - **Platform**: macOS 
+- **Errors**: None that I'm aware of. You will get some warnings if you don't compile
+with c++20. Also some of the floating point decimals are off from the examples. 
 
 ---
 
